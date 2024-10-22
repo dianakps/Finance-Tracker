@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white bg-cyan-950 relative;
+  }
+
+  button {
+    @apply hover:scale-110 transition-all duration-100;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply text-white bg-cyan-800 w-40 h-14 rounded-lg;
+  }
+}
